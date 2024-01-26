@@ -42,7 +42,6 @@ def mongo():
 def redis():
     stamps = mysqldb.read()
 
-
 def verify():
     stamps = mongodb.read()
     status(stamps,'mongo')
